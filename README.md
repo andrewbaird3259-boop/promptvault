@@ -7,6 +7,16 @@
 
 ---
 
+## 在线直接用（免安装）
+
+**https://andrewbaird3259-boop.github.io/promptvault/**
+
+- 手机 Chrome / Safari 打开 → 菜单里「添加到主屏幕 / 安装应用」，就是一个独立窗口的 App
+- 走 https，Service Worker 能注册，**断网也能用**（数据和离线缓存都在你手机上，不上传服务器）
+- 源码在 [GitHub](https://github.com/andrewbaird3259-boop/promptvault)，随时可以 fork 成自己的
+
+---
+
 ## 它解决什么问题
 
 提示词散落在微信收藏、备忘录、聊天记录里，用到时找不到；好不容易找到，又要在对话框里一段段改 `年龄/场景/风格` 这些占位符。
