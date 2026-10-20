@@ -1,0 +1,13 @@
+# 构建产物（分发包不入库，用 Releases 或 Pages 分发）
+dist/
+
+# 开发/测试用页面
+_dev/
+
+# 系统与编辑器
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.log
