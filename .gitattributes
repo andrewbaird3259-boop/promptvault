@@ -1,0 +1,11 @@
+# 统一换行，避免 Windows/Linux 反复 diff
+* text=auto eol=lf
+
+# 这几个必须保持 CRLF（cmd.exe 对 LF 的 .cmd 会逐行误解析；.ps1 含 BOM 也保持原样）
+*.cmd text eol=crlf
+*.ps1 text eol=crlf
+
+# 二进制
+*.png binary
+*.jpg binary
+*.ico binary
